@@ -1,0 +1,25 @@
+:root {
+  --base-color: #003149;
+  --sub-bcolor: #004669;
+  --light-bcolor: #2f5c72;
+  --fore-color: #fc9619;
+  --hover-fore: #ffb861;
+}
+
+html {
+  min-width: 225;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: var(--sub-bcolor);
+  color: var(--fore-color);
+}
+
+header {
+  background-color: var(--base-color);
+  padding: 1rem 1rem;
+  width: 100%;
+}
+
+p {
+  color: var(--fore-color);
+}

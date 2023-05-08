@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummi</title>
+    <link rel="icon" type="image/jpg" href="assets/yummi-logo.png" />
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0"
+    />
+    <script src="./scripts/change_size.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar__identifier">
+          <a href="/public_html/index.html"
+            ><img class="navbar__logo" src="./assets/yummi-logo.png" alt="Logo"
+          /></a>
+          <h2 class="navbar__name">Yummi</h2>
+        </div>
+        <ul class="navbar__list" id="navbar__list-items">
+          <li>
+            <a class="navbar__links" href="./web/terms.html"
+              >Terminos y condiciones</a
+            >
+          </li>
+          <li>
+            <a class="navbar__links" href="./web/policy.html"
+              >Politicas de privacidad</a
+            >
+          </li>
+        </ul>
+        <button class="navbar__hamburger" id="menu_hamburger">
+          <span class="material-symbols-outlined"> menu </span>
+        </button>
+      </nav>
+    </header>
+    <main class="welcome">
+      <h1 class="welcome__paragraph">Bienvenidos a yummi</h1>
+      <p class="welcome__paragraph">
+        Puede descargar nuestra aplicacion dando click en el siguiente boton
+      </p>
+      <button class="button" id="descargar">
+        <img
+          class="button__icon"
+          src="./assets/android-logo.png"
+          alt="Logo Android"
+        />
+        <p class="button__text">Descargar</p>
+      </button>
+    </main>
+
+    <div class="container__menu" id="sidebar">
+      <div class="cont__menu">
+        <nav>
+          <a class="navbar__links" href="./web/terms.html"
+            >Terminos y condiciones</a
+          >
+          <a class="navbar__links" href="./web/policy.html"
+            >Politicas de privacidad</a
+          >
+        </nav>
+        <button class="navbar__hamburger navbar__close" id="menu_close">
+          <span class="material-symbols-outlined"> close </span>
+        </button>
+      </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
